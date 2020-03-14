@@ -202,7 +202,6 @@ config_file = "HermesConfig.txt"
 token = config_handler("Hermes_Bot_Token:", "Hermes Chat History File:", config_file)
 URL = "https://api.telegram.org/bot{}/".format(token)
 bot = telebot.TeleBot(token=token)
-password = config_handler("Password:", "Hermes_Bot_Token:", config_file)
 History = config_handler("Hermes Chat History File:", "Post Office 2 Hermes:", config_file)
 From_Hermes_Config = list(config_handler("Hermes 2 Post Office:", "Hermes update:", config_file).split("\n"))
 To_Hermes_Config = list(config_handler("Post Office 2 Hermes:", "Hermes 2 Post Office:", config_file).split("\n"))
