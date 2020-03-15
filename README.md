@@ -25,7 +25,7 @@ If you are cuirias to see how the code looks feel free to have a look at the Her
 
 There is no limit to the number of programs Hermes can interact with. Just mack sure you create the PO.Box file directories and refrince them accrodingly in the config file. Also insure there are no blank lines in the config file.
 
-Here's an example of the config file:
+Here's an example of the config file layout:
 
 ```
 Hermes_Bot_Token:
