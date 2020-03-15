@@ -21,9 +21,7 @@ The Hermes messanger bot makes use of the pyTelegramBorAPI libary. Inoder for th
 
 You can now proceed in pressing the big green button *"Clone or download"* located on theh top right conner of the page and selecting *"Download ZIP"*.
 
-If you are cuirias to see how the code looks feel free to have a look at the Hermes.py file. The code is writen in such a way that no changes need to be made. You can use the Hermes.exe file as is. The only file that requires editing is the config file. Please also insure that this file is located in the same directory as the Hermes.exe file. 
-
-There is no limit to the number of programs Hermes can interact with. Just mack sure you create the PO.Box file directories and refrince them accrodingly in the config file. Also insure there are no blank lines in the config file.
+There is no limit to the number of programs Hermes can interact with. Just mack sure you create the PO.Box file directories and refrince them accrodingly in the config file. Also insure there are no blank lines in the config file. The file should also be located in the same directory as the Hermes.exe file. 
 
 Here's an example of the config file layout:
 
@@ -44,5 +42,26 @@ C:\Users\zeus\OneDrive\Codes\Python\scr\Exchange\POBox2\To_Hermes
 C:\Users\zeus\OneDrive\Codes\Python\scr\Exchange\POBox3\To_Hermes
 End of Config
 ```
+
+
+### Compiling The .exe ###
+
+If you are cuirias to see how the code looks feel free to have a look at the Hermes.pyw file. The code is writen in such a way that no changes need to be made. You can use the Hermes.exe file as is. The only file that requires editing is the config file. 
+
+If you do want to edit the code and run it as a .exe file, then there is a little trick you sould know about. The more perseptive of you might have noticed that we are using a .pyw file instead of a .py. The reason for this, to qoute the official documentation is as follows:
+
+*Python scripts (files with the extension .py) will be executed by python.exe by default. This executable opens a terminal, which stays open even if the program uses a GUI. If you do not want this to happen, use the extension .pyw which will cause the script to be executed by pythonw.exe by default (both executables are located in the top-level of your Python installation directory). This suppresses the terminal window on startup.* https://docs.python.org/2/using/windows.html
+
+The reason we don't want to open the terminal, is somehow this lets the program run once and then it kills it. However we want Hermes to run continuasl non-stop and for this we'll need the .pyw exstension.
+
+Now to make the .pyw file a .exe you'll need to install pyinstaller, learn how to do it over here:  https://www.pyinstaller.org/
+When this is done you'll need to go to the directory via the command line and execute spesifically the following command:
+
+```powershell
+pyinstaller -F --hidden-import "babel.numbers" Hermes.pyw
+```
+
+
+
 
 ![](Images/pythonpoweredlengthgif.gif)
