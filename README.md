@@ -50,7 +50,7 @@ If you are cuirias to see how the code looks feel free to have a look at the Her
 
 If you do want to edit the code and run it as a .exe file, then there is a little trick you sould know about. The more perseptive of you might have noticed that we are using a .pyw file instead of a .py. The reason for this, to qoute the official documentation is as follows:
 
-*Python scripts (files with the extension .py) will be executed by python.exe by default. This executable opens a terminal, which stays open even if the program uses a GUI. If you do not want this to happen, use the extension .pyw which will cause the script to be executed by pythonw.exe by default (both executables are located in the top-level of your Python installation directory). This suppresses the terminal window on startup.* https://docs.python.org/2/using/windows.html
+*"Python scripts (files with the extension .py) will be executed by python.exe by default. This executable opens a terminal, which stays open even if the program uses a GUI. If you do not want this to happen, use the extension .pyw which will cause the script to be executed by pythonw.exe by default (both executables are located in the top-level of your Python installation directory). This suppresses the terminal window on startup."* https://docs.python.org/2/using/windows.html
 
 The reason we don't want to open the terminal, is somehow this lets the program run once and then it kills it. However we want Hermes to run continuasl non-stop and for this we'll need the .pyw exstension.
 
