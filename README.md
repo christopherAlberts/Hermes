@@ -3,9 +3,11 @@ A message bot worthy of the gods!
 
 ![](Images/HermesBanner.png)
 
-This bot makes use of the Telegram API, it is however designed to work a bit unconventunal.
+This bot makes use of the Telegram API, it is however designed to work a bit unconventunal...
 
 ## How it works
+
+The idea behind this bot was not to make a bot with a template reply. But rather one that that can interact with your programs, whatever they might be. This is done through means of an *exschange*.
 
 ![](Images/Hermes_Workflow.png)
 
