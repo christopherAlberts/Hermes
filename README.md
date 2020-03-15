@@ -13,15 +13,19 @@ The Beauty of this setup is that Hermes can interact with any program written in
 
 ![](Images/Hermes_Workflow.png)
 
-
-
-
 ## Try It Out
+
+First things first, you'll need to get your Telegram API key. It's free and simple just speak to the BotFather...https://core.telegram.org/bots#6-botfather
 
 The Hermes messanger bot makes use of the pyTelegramBorAPI libary. Inoder for this program to work you'll need to install the required packages. The following link describes how to do this:   https://github.com/eternnoir/pyTelegramBotAPI
 
+You can now proceed in pressing the big green button *"Clone or download"* located on theh top right conner of the page and selecting *"Download ZIP"*.
 
-There is no limit to the number of programs Hermes can interact with. Just mack sure you create the PO.Box file directories and refrince them accrodingly in the config file:
+If you are cuirias to see how the code looks feel free to have a look at the Hermes.py file. The code is writen in such a way that no changes need to be made. You can use the Hermes.exe file as is. The only file that requires editing is the config file. Please also insure that this file is located in the same directory as the Hermes.exe file. 
+
+There is no limit to the number of programs Hermes can interact with. Just mack sure you create the PO.Box file directories and refrince them accrodingly in the config file. Also insure there are no blank lines in the config file.
+
+Here's an example of the config file:
 
 ```
 Hermes_Bot_Token:
