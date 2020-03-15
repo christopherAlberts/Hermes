@@ -18,7 +18,7 @@ The Beauty of this setup is that Hermes can interact with any program written in
 
 ## Try It Out
 
-The Hermes messanger bot makes use of the pyTelegramBorAPI libary. Inoder for this program to work you'll need to install the required packages. You can use the following link to find out how to do this:   https://github.com/eternnoir/pyTelegramBotAPI
+The Hermes messanger bot makes use of the pyTelegramBorAPI libary. Inoder for this program to work you'll need to install the required packages. The following link describes how to do this:   https://github.com/eternnoir/pyTelegramBotAPI
 
 
 There is no limit to the number of programs Hermes can interact with. Just mack sure you create the PO.Box file directories and refrince them accrodingly in the config file:
