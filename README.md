@@ -13,8 +13,6 @@ The Beauty of this setup is that Hermes can interact with any program written in
 
 ![](Images/Hermes_Workflow.png)
 
-The *Exchange* complex thou it might seem is just a set of folders inside each other.
-
 ## Try It Out
 
 ### Getting All The Files And Libraries
@@ -25,6 +23,8 @@ The Hermes messanger bot makes use of the pyTelegramBorAPI libary. Inoder for th
 You can now proceed in pressing the big green button *"Clone or download"* located on the top right conner of the page and selecting *"Download ZIP"*.
 
 ### Creating The Exchange ###
+
+The *Exchange* complex thou it might seem is just a set of folders inside each other.
 
 ### Editing the Config File ###
 
@@ -49,9 +49,10 @@ C:\Users\zeus\OneDrive\Codes\Python\scr\Exchange\POBox2\To_Hermes
 C:\Users\zeus\OneDrive\Codes\Python\scr\Exchange\POBox3\To_Hermes
 End of Config
 ```
-Once you are confident that you have edited the config file correctly and compiled the excange folder heirachy accordingly, then you can run the executable and send the wake-up command:
 
 ### I'm Alive! ###
+
+Once you are confident that you have edited the config file correctly and compiled the excange folder heirachy accordingly, then you can run the executable and send the wake-up command:
 
 Either of the following will do:
 
