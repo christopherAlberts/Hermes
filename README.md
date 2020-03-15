@@ -13,13 +13,20 @@ The Beauty of this setup is that Hermes can interact with any program written in
 
 ![](Images/Hermes_Workflow.png)
 
+The *Exchange* complex thou it might seem is just a set of folders inside each other.
+
 ## Try It Out
 
+### Getting All The Files And Libraries
 First things first, you'll need to get your Telegram API key. It's free and simple just speak to the BotFather...https://core.telegram.org/bots#6-botfather
 
 The Hermes messanger bot makes use of the pyTelegramBorAPI libary. Inoder for this program to work you'll need to install the required packages. The following link describes how to do this:   https://github.com/eternnoir/pyTelegramBotAPI
 
 You can now proceed in pressing the big green button *"Clone or download"* located on the top right conner of the page and selecting *"Download ZIP"*.
+
+### Creating The Exchange ###
+
+### Editing the Config File ###
 
 You do not have to change any of the code you can use the executabile file as is. The only thing you'll need to change is the config file and to create the PO.Box file directories and refrince them accrodingly in the config file. Also insure there are no blank lines in the config file. The file should also be located in the same directory as the Hermes.exe file. There is no limit to the number of programs Hermes can interact with.
 
@@ -44,6 +51,8 @@ End of Config
 ```
 Once you are confident that you have edited the config file correctly and compiled the excange folder heirachy accordingly, then you can run the executable and send the wake-up command:
 
+### I'm Alive! ###
+
 Either of the following will do:
 
 ```
@@ -56,7 +65,7 @@ Either of the following will do:
 If everthing is set up correctly, you'll then recieve the following:
 
 ```
-I'm alive
+I'm alive!
 ```
 This will indicate everything is working as it should. You can now start sending your commands through.
 
@@ -77,6 +86,9 @@ When this is done you'll need to go to the directory via the command line and ex
 ```powershell
 pyinstaller -F --hidden-import "babel.numbers" Hermes.pyw
 ```
+
+
+## Create Your Own Program To Work With Hermes
 
 
 
