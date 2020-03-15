@@ -3,11 +3,13 @@ A message bot worthy of the gods!
 
 ![](Images/HermesBanner.png)
 
-This bot makes use of the Telegram API, it is however designed to work a bit unconventunal...
+This bot makes use of the Telegram API, it is however designed to work a bit unconventunaly...
 
 ## How it works
 
-The idea behind this bot was not to make a bot with a template reply. But rather one that that can interact with your programs, whatever they might be. This is done through means of an *exschange*.
+The idea behind this bot was not to make a bot with a template reply. But rather one that that can interact with your programs, whatever they might be. This is done through means of an *exschange*. When a message is sent through. Hermes will determine which PO.Box in the exchange it should go to. It will then take the message to the *"From_Hermes"* folder in the PO.Box. The idea it that what ever program you are interacting with, will monitor the *"From_Hermes"* folder. Once a message comes throught the program will execute the command and return to output to the *"To_Hermes"* folder, at which point Hermes will take the output and use it as the responce to the original message sent.
+
+The Beauty of this setup is that Hermes can interact with any program written in any languge, be it python, java, C# , C++ or even .bat scripts. Below is a diagram illestrating how this process works:
 
 ![](Images/Hermes_Workflow.png)
 
