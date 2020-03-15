@@ -1,15 +1,15 @@
 Hermes_Bot_Token:
-1130092540:AAH6n6yetoPrgkF4X49adEXFs4x0dQ5TSFg
+982gkjh28746u42hraodsmcnB87345gjhg7347
 Hermes Chat History File:
 C:\Users\zeus\OneDrive\Codes\Python\scr\HermesChatHistory.txt
 Hermes 2 Exchange:
-C:\Users\chris\OneDrive\Codes\Python\scr\Exchange\POBox0\From_Hermes
-C:\Users\chris\OneDrive\Codes\Python\scr\Exchange\POBox1\From_Hermes
-C:\Users\chris\OneDrive\Codes\Python\scr\Exchange\POBox2\From_Hermes
-C:\Users\chris\OneDrive\Codes\Python\scr\Exchange\POBox3\From_Hermes
+C:\Users\zeus\OneDrive\Codes\Python\scr\Exchange\POBox0\From_Hermes
+C:\Users\zeus\OneDrive\Codes\Python\scr\Exchange\POBox1\From_Hermes
+C:\Users\zeus\OneDrive\Codes\Python\scr\Exchange\POBox2\From_Hermes
+C:\Users\zeus\OneDrive\Codes\Python\scr\Exchange\POBox3\From_Hermes
 Exchange 2 Hermes:
-C:\Users\chris\OneDrive\Codes\Python\scr\Exchange\POBox0\To_Hermes
-C:\Users\chris\OneDrive\Codes\Python\scr\Exchange\POBox1\To_Hermes
-C:\Users\chris\OneDrive\Codes\Python\scr\Exchange\POBox2\To_Hermes
-C:\Users\chris\OneDrive\Codes\Python\scr\Exchange\POBox3\To_Hermes
+C:\Users\zeus\OneDrive\Codes\Python\scr\Exchange\POBox0\To_Hermes
+C:\Users\zeus\OneDrive\Codes\Python\scr\Exchange\POBox1\To_Hermes
+C:\Users\zeus\OneDrive\Codes\Python\scr\Exchange\POBox2\To_Hermes
+C:\Users\zeus\OneDrive\Codes\Python\scr\Exchange\POBox3\To_Hermes
 End of Config
