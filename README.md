@@ -121,6 +121,10 @@ The second thing that sould be kept in mind is that Hermes only looks at the "To
 If you want to create your own program that works with Hermes you can follow these steps:
 
 1. Remember your program will recieve it's input from a .txt file located in the "From_Hermes" folder(Exchange/POBox#/From_Hemes). This is whare Hermes placed the message that was sent.
-2. Your program can now use this input to execute the apprpriate task. Once done it should return it's ouutput in a .txt file to the "To_Hermes" folder(Exchange/POBox#/To_Hemes). Hermes will then take the responce 
+2. Your program can now use this input to execute the apprpriate task. Once done it should return it's output in a .txt file to the "To_Hermes" folder(Exchange/POBox#/To_Hemes). Hermes will then take the data inside this .txt file and use it as the responce to the orriginal message that was sent through.
+
+Now to aid you in creating your program. I have included a cool python function which does all the heavy lifting for you. The same function is used in Hermes.
+
+### hedwig_protocol() ###
 
 ![](Images/pythonpoweredlengthgif.gif)
