@@ -202,7 +202,7 @@ def hedwig_protocol(listen_or_take, file_name, take_this):
 
 ### PowerShellExecutor Test Program ###
 
-![](Images/powerrshelllogo.png)
+
 
 I have attached a test program that you can try out. It will take each command that comes in to "From_Hermes" folder and execute it in PowerShell. It will then send the output to the "To_Hermes" folder, where Hermes will then take it as a respons to the original message sent.
 
