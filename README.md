@@ -129,6 +129,8 @@ Now to aid you in creating your program. I have included a cool python function 
 
 
 ```python3
+import os
+
 def hedwig_protocol(listen_or_take, file_name, take_this):
 
     # THERE ARE TWO PARTS TO THIS FUNCTION:
