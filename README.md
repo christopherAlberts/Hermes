@@ -198,4 +198,19 @@ def hedwig_protocol(listen_or_take, file_name, take_this):
 
 ```
 
+### PowerShellExecutor Test Program ###
+
+I have attached a test program that you can try out. It will take each command that comes in to "From_Hermes" folder and execute it in PowerShell. It will then send the output to the "To_Hermes" folder, where Hermes will then take it as a respons to the original message sent.
+
+The files can be found in the PowerShellExecutor directory. You'll have to compile the executable useinging pyinstaller.
+You can go to the PowerShellExecutor directory via the command line, once you've downloaded. Once you're in the directory you can use the following command to create the executable.
+
+```powershell
+pyinstaller .\PowerShellExecutor.pyw
+```
+
+This will then generate an number of new files. You'll find all the files you need within the * dist * directory. Just copy the PowerShellExecutorConfig.txt to this directory then you're good to go.
+
+If you want Both the Hermes and the PowerShellExecutor to start automatically when your pc boots up. Then just create a shortcut of both the Hermes.exe and the PowerShellExecutor.exe and place these in your startup foler. You can find your startup folder by bringing up the Run box and typing in `shell:common startup` and then hitting Enter.
+
 ![](Images/pythonpoweredlengthgif.gif)
