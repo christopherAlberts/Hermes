@@ -87,6 +87,12 @@ First the exchange number followed by "#" and then your message.
 ```
 Hermes will then insure the message (without "0#") gets delivered to the right exchange. Once the message is delivered Hermes will wait to receive the response. __It must recieve a responce to continue.__ Once a response is received, Hermes will then sent it through to the user. After the response is sent through Hermes will go through all the response files from all the exchanges. To check if there are any additional information that might have come through.
 
+In the following example example will send the fomous qoute from The Iliad written by Homer to exchange number 3 (Exchange/POBox3/From_Homer).
+
+```
+3# "Let me not then die ingloriously and without a struggle, but let me first do some great thing that shall be told among men hereafter." -The Iliad- Chapter 22 -Homer-
+```
+
 
 ### Compiling The .exe ###
 
