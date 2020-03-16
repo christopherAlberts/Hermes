@@ -26,6 +26,12 @@ You can now proceed in pressing the big green button *"Clone or download"* locat
 
 The *Exchange* complex thou it might seem is just a set of folders inside each other.
 
+You'll need on one main folder titled "Excange". With in this folder you need to create a "POBox#" folder for each program. The '#' reprasents the program's number, i.e "POBox0", "POBox1", "POBox2"... Remember computers start counting at "0" so start with "POBox0".
+Inside every POBox folder you'll need the last remaining two folders namely, From_Hermes and To_Hermes.
+The "From_Hermes" folder will contain the original message sent through. Your program will then take this as input. The output of the program should then be placed in the To_Hermes folder. Hermes will then take this and send it through as the responce to the original message.
+
+You'll need to referince the path of the "From_Hermes" and "To_Hermes" folders in the config file. 
+
 ### Editing the Config File ###
 
 You do not have to change any of the code you can use the executabile file as is. The only thing you'll need to change is the config file and to create the PO.Box file directories and refrince them accrodingly in the config file. Also insure there are no blank lines in the config file. The file should also be located in the same directory as the Hermes.exe file. There is no limit to the number of programs Hermes can interact with.
