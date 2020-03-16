@@ -20,7 +20,7 @@ First things first, you'll need to get your Telegram API key. It's free and simp
 
 The Hermes messanger bot makes use of the pyTelegramBorAPI libary. Inoder for this program to work you'll need to install the required packages. The following link describes how to do this:   https://github.com/eternnoir/pyTelegramBotAPI
 
-You can now proceed in pressing the big green button *"Clone or download"* located on the top right conner of the page and selecting *"Download ZIP"*.
+You can now proceed in pressing the big green button *"Clone or download"* located on the top right conner of the page and selecting *"Download ZIP"*. You'll now have all the file to run the program. You'll just need to create your exchange and edit the config file.
 
 ### Creating The Exchange ###
 
