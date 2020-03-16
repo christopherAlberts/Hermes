@@ -83,7 +83,7 @@ ALL MESSAGES SHOULD BE IN THE FOLLOWING FORMAT:
 First the exchange number followed by "#" and then your message.
 
 ```
-    0# Hello Venus
+0# Hello Venus
 ```
 Hermes will then insure it gets delivered to the right exchange. Once the message is delivered Hermes will wait to receive the response. __It must recieve a responce to continue.__ Once Hermes receives the response, it will then sent it through to the user. After the response is sent through Hermes will go through all the response files from all the exchanges. To check if there are any additional information the might have come through.
 
