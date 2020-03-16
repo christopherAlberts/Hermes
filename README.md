@@ -56,6 +56,8 @@ C:\Users\zeus\Codes\Python\scr\HermesChatHistory.txt
 End of Config
 ```
 
+With the config file, you'll also need to create a chat history file called "HermesChatHistory.txt". This file should also be refirinced in the config file.
+
 ### I'm Alive! ###
 
 Once you are confident that you have edited the config file correctly and compiled the excange folder heirachy accordingly, then you can run the executable and send the wake-up command:
@@ -95,7 +97,7 @@ pyinstaller -F --hidden-import "babel.numbers" Hermes.pyw
 ```
 
 
-## Create Your Own Program To Work With Hermes
+## Create Your Own Program To Work With Hermes ##
 
 
 
