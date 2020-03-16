@@ -34,7 +34,7 @@ You'll need to referince the path of the "From_Hermes" and "To_Hermes" folders i
 
 ### Editing the Config File ###
 
-You do not have to change any of the code you can use the executabile file as is. The only thing you'll need to change is the config file and to create the PO.Box file directories and refrince them accrodingly in this file. Also insure there are no blank lines in the config file. The file should also be located in the same directory as the Hermes.exe file and have the title "". There is no limit to the number of programs Hermes can interact with.
+You do not have to change any of the code you can use the executabile file as is. The only thing you'll need to change is the config file and to create the PO.Box file directories and refrince them accrodingly in this file. Also insure there are no blank lines in the config file. The file should also be located in the same directory as the Hermes.exe file and have the title "HermesConfig.txt". There is no limit to the number of programs Hermes can interact with.
 
 Here's an example of the config file layout:
 
