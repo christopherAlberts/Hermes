@@ -131,6 +131,7 @@ The hedwig_protocol() function allows you to either send files to a folder or to
 
 ```python3
 import os
+import time
 
 def hedwig_protocol(listen_or_take, file_name, take_this):
 
