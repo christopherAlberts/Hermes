@@ -87,7 +87,7 @@ First the exchange number followed by "#" and then your message.
 ```
 Hermes will then insure the message (without "0#") gets delivered to the right exchange. Once the message is delivered Hermes will wait to receive the response. __It must recieve a responce to continue.__ Once a response is received, Hermes will then sent it through to the user. After the response is sent through Hermes will go through all the response files from all the exchanges. To check if there are any additional information that might have come through.
 
-In the following example example will send the fomous qoute from The Iliad written by Homer to exchange number 3 (Exchange/POBox3/From_Homer).
+In the following example example will send the fomous qoute from The Iliad written by Homer to exchange number 3 (Exchange/POBox3/From_Hermes).
 
 ```
 3# "Let me not then die ingloriously and without a struggle, but let me first do some great thing that shall be told among men hereafter." -The Iliad- Chapter 22 -Homer-
@@ -118,7 +118,9 @@ The second thing that sould be kept in mind is that Hermes only looks at the "To
 
 ## Create Your Own Program To Work With Hermes ##
 
+If you want to create your own program that works with Hermes you can follow these steps:
 
-
+1. Remember your program will recieve it's input from a .txt file located in the "From_Hermes" folder(Exchange/POBox#/From_Hemes). This is whare Hermes placed the message that was sent.
+2. Your program can now use this input to execute the apprpriate task. Once done it should return it's ouutput in a .txt file to the "To_Hermes" folder(Exchange/POBox#/To_Hemes). Hermes will then take the responce 
 
 ![](Images/pythonpoweredlengthgif.gif)
