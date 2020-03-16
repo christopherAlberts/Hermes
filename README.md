@@ -95,7 +95,11 @@ When this is done you'll need to go to the directory via the command line and ex
 ```powershell
 pyinstaller -F --hidden-import "babel.numbers" Hermes.pyw
 ```
+## The Achilles Heel ##
 
+There two things that should be noted. These are the two big limitation of this code. The first being that when Hermes sends a message through, it exspects a responce. __Nothing will happen until it recieves a responce.__ Only after a response is received, will you be able to send the next message through.
+
+The second thing that sould be kept in mind is that Hermes only looks at the "To_Hermes" foolder (folder containing responce from the program) after a message is sent to the "From_Hermes" folder. What this means is a program that sends updated throught periodically will not work. Those updates will only be recieved after a message is sent.
 
 ## Create Your Own Program To Work With Hermes ##
 
