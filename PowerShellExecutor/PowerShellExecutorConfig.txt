@@ -1,5 +1,5 @@
 PowerShellExecutor Receive:
-C:\Users\chris\OneDrive\Codes\Python\scr\Exchange\POBox1\From_Hermes
+C:\Users\zeus\Codes\Python\scr\Exchange\POBox1\From_Hermes
 PowerShellExecutor Send:
-C:\Users\chris\OneDrive\Codes\Python\scr\Exchange\POBox1\To_Hermes
+C:\Users\zeus\Codes\Python\scr\Exchange\POBox1\To_Hermes
 End of Config
