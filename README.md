@@ -95,7 +95,7 @@ When this is done you'll need to go to the directory via the command line and ex
 ```powershell
 pyinstaller -F --hidden-import "babel.numbers" Hermes.pyw
 ```
-## The Achilles Heel ##
+### The Achilles Heel ###
 
 There two things that should be noted. These are the two big limitation of this code. The first being that when Hermes sends a message through, it exspects a responce. __Nothing will happen until it recieves a responce.__ Only after a response is received, will you be able to send the next message through.
 
