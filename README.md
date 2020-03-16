@@ -127,7 +127,7 @@ Now to aid you in creating your program. I have included a cool python3 function
 
 ### hedwig_protocol() ###
 
-The hedwig_protocol() function allows you to either send files to a folder or to take files from a folder. The in-code comments will give a more thorough exsplenation: 
+The hedwig_protocol() function allows you to either send files to a folder or to take files from a folder. The in-code comments will give you a more thorough exsplenation: 
 
 ```python3
 import os
