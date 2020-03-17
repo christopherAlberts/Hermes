@@ -114,7 +114,7 @@ pyinstaller -F --hidden-import "babel.numbers" Hermes.pyw
 ```
 ### The Achilles Heel ###
 
-There two things that should be noted. These are the two big limitation of this code. The first being that when Hermes sends a message through, it expects a response. __Nothing will happen until it receives a response.__ Only after a response is received, will you be able to send the next message through.
+There two things that should be noted. These are the two big limitations of this code. The first being that when Hermes sends a message through, it expects a response. __Nothing will happen until it receives a response.__ Only after a response is received, will you be able to send the next message through.
 
 The second thing that should be kept in mind is that Hermes only looks at the "To_Hermes" folder (folder containing response from the program) after a message is sent to the "From_Hermes" folder. What this means is a program that sends updated through periodically will not work. Those updates will only be received after a message is sent.
 
@@ -217,6 +217,6 @@ pyinstaller .\PowerShellExecutor.pyw
 
 This will then generate a number of new files. You'll find all the files you need within the * dist * directory. Just copy the PowerShellExecutorConfig.txt to this directory then you're good to go.
 
-If you want both the Hermes and the PowerShellExecutor to start automatically when your pc boots up. Then just create a shortcut of both the Hermes.exe and the PowerShellExecutor.exe and place these in your startup folder. You can find your startup folder by bringing up the Run box and typing in `shell:common startup` and then hitting Enter.
+If you want both the Hermes and the PowerShellExecutor to start automatically when your pc boots up, just create a shortcut of both the Hermes.exe and the PowerShellExecutor.exe and place these in your startup folder. You can find your startup folder by bringing up the Run box and typing in `shell:common startup` and then hitting Enter.
 
 ![](Images/pythonpoweredlengthgif.gif)
