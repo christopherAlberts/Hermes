@@ -25,9 +25,9 @@ You can now proceed by pressing the big green button *"Clone or download"* locat
 
 ### Creating The Exchange ###
 
-The *Exchange* complex thou it might seem is just a set of folders inside each other.
+The *Exchange* complex thou it might seem, is just a set of folders inside each other.
 
-You'll need on one main folder titled "Exchange". With in this folder you need to create a "POBox#" folder for each program. The '#' represents the program's number, i.e "POBox0", "POBox1", "POBox2"... Remember computers start counting at "0" so start with "POBox0".
+You'll need one main folder titled "Exchange". Within this folder you need to create a "POBox#" folder for each program. The '#' represents the program's number, i.e "POBox0", "POBox1", "POBox2"... Remember computers start counting at "0" so start with "POBox0".
 Inside every POBox folder you'll need the last remaining two folders namely, From_Hermes and To_Hermes.
 The "From_Hermes" folder will contain the original message sent through. Your program will then take this as input. The output of the program should then be placed in the To_Hermes folder. Hermes will then take this and send it through as the response to the original message.
 
@@ -35,7 +35,7 @@ You'll need to reference the path of the "From_Hermes" and "To_Hermes" folders i
 
 ### Editing the Config File ###
 
-You do not have to change any of the code you can use the executable file as is. The only thing you'll need to change is the config file and you'll need to create the exchange file directories and reference them accordingly in this file. Also insure there are no blank lines in the config file. The file should also be located in the same directory as the Hermes.exe file and have the title "HermesConfig.txt". There is no limit to the number of programs Hermes can interact with.
+You do not have to change any of the code, you can use the executable file as is. The only thing you'll need to change is the config file and you'll need to create the exchange file directories and reference them accordingly in this file. Also insure that there are no blank lines in the config file. The file should also be located in the same directory as the Hermes.exe file and have the title "HermesConfig.txt". There is no limit to the number of programs Hermes can interact with.
 
 Here's an example of the config file layout:
 
@@ -87,7 +87,7 @@ First the exchange number followed by "#" and then your message.
 ```
 0# Hello Venus
 ```
-Hermes will then insure the message (without "0#") gets delivered to the right exchange. Once the message is delivered Hermes will wait to receive the response. __It must receive a response to continue.__ Once a response is received, Hermes will then sent it through to the user. After the response is sent through Hermes will go through all the response files from all the exchanges. To check if there are any additional information that might have come through.
+Hermes will then ensure the message (without "0#") gets delivered to the right exchange. Once the message is delivered, Hermes will wait to receive the response. __It must receive a response to continue.__ Once a response is received, Hermes will then send it through to the user. After the response is sent through, Hermes will go through all the response files from all the exchanges. To check if there is any additional information that might have come through.
 
 The following example will send a famous quote from The Iliad written by Homer to exchange number 3 (Exchange/POBox3/From_Hermes).
 
