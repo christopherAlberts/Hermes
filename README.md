@@ -57,11 +57,11 @@ C:\Users\zeus\Codes\Python\scr\HermesChatHistory.txt
 End of Config
 ```
 
-With the config file, you'll also need to create a chat history file called "HermesChatHistory.txt". This file should also be refirinced in the config file.
+With the config file, you'll also need to create a chat history file called "HermesChatHistory.txt". This file should also be referenced in the config file.
 
 ### I'm Alive! ###
 
-Once you are confident that you have edited the config file correctly and compiled the excange folder heirachy accordingly, then you can run the executable and send the wake-up command:
+Once you are confident that you have edited the config file correctly and compiled the Exchange folder hierarchy accordingly, then you can run the executable and send the wake-up command:
 
 Either of the following will do:
 
@@ -72,11 +72,12 @@ Either of the following will do:
 /areyoualive?
 ```
 
-If everthing is set up correctly, you'll then recieve the following:
+If everything is set up correctly, you'll then receive the following:
 
 ```
 I'm alive!
 ```
+
 This will indicate everything is working as it should. You can now start sending your commands through.
 
 ALL MESSAGES SHOULD BE IN THE FOLLOWING FORMAT:
