@@ -80,16 +80,16 @@ I'm alive!
 
 This will indicate everything is working as it should. You can now start sending your commands through.
 
-ALL MESSAGES SHOULD BE IN THE FOLLOWING FORMAT:
+__ALL MESSAGES SHOULD BE IN THE FOLLOWING FORMAT:__
 
 First the exchange number followed by "#" and then your message.
 
 ```
 0# Hello Venus
 ```
-Hermes will then insure the message (without "0#") gets delivered to the right exchange. Once the message is delivered Hermes will wait to receive the response. __It must recieve a responce to continue.__ Once a response is received, Hermes will then sent it through to the user. After the response is sent through Hermes will go through all the response files from all the exchanges. To check if there are any additional information that might have come through.
+Hermes will then insure the message (without "0#") gets delivered to the right exchange. Once the message is delivered Hermes will wait to receive the response. __It must receive a response to continue.__ Once a response is received, Hermes will then sent it through to the user. After the response is sent through Hermes will go through all the response files from all the exchanges. To check if there are any additional information that might have come through.
 
-The following example will send a famous qoute from The Iliad written by Homer to exchange number 3 (Exchange/POBox3/From_Hermes).
+The following example will send a famous quote from The Iliad written by Homer to exchange number 3 (Exchange/POBox3/From_Hermes).
 
 ```
 3# "Let me not then die ingloriously and without a struggle, but let me first do some great thing that shall be told among men hereafter." -The Iliad- Chapter 22 -Homer-
