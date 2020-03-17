@@ -213,6 +213,8 @@ You can go to the PowerShellExecutor directory via the command line, once you've
 pyinstaller .\PowerShellExecutor.pyw
 ```
 
+![](Images/powershelllogo.png)
+
 This will then generate a number of new files. You'll find all the files you need within the * dist * directory. Just copy the PowerShellExecutorConfig.txt to this directory then you're good to go.
 
 If you want both the Hermes and the PowerShellExecutor to start automatically when your pc boots up. Then just create a shortcut of both the Hermes.exe and the PowerShellExecutor.exe and place these in your startup folder. You can find your startup folder by bringing up the Run box and typing in `shell:common startup` and then hitting Enter.
