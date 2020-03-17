@@ -16,11 +16,12 @@ The Beauty of this setup is that Hermes can interact with any program written in
 ## Try It Out
 
 ### Getting All The Files And Libraries
-First things first, you'll need to get your Telegram API key. It's free and simple just speak to the BotFather...https://core.telegram.org/bots#6-botfather
 
-The Hermes messanger bot makes use of the pyTelegramBorAPI libary. Inoder for this program to work you'll need to install the required packages. The following link describes how to do this:   https://github.com/eternnoir/pyTelegramBotAPI
+First things first, you'll need to get your Telegram API key. It's free and simple just speak to the BotFather... https://core.telegram.org/bots#6-botfather
 
-You can now proceed in pressing the big green button *"Clone or download"* located on the top right conner of the page and selecting *"Download ZIP"*. You'll now have all the file to run the program. You'll just need to create your exchange and edit the config file.
+The Hermes messenger bot makes use of the pyTelegramBorAPI library. Enoder for this program to work you'll need to install the required packages. The following link describes how to do this:   https://github.com/eternnoir/pyTelegramBotAPI
+
+You can now proceed in pressing the big green button *"Clone or download"* located on the top right conner of the page and selecting *"Download ZIP"*. You'll now have all the file to run the program. Following this you'll just need to create your exchange and edit the config file.
 
 ### Creating The Exchange ###
 
