@@ -41,7 +41,7 @@ Here's an example of the config file layout:
 
 ```
 Hermes_Bot_Token:
-982gkjh28746u42hraodsmcnB87345gjhg7347
+982gkjh28746u42hraodsmcnB87345gjhg734732523452345dr5
 Hermes 2 Exchange:
 C:\Users\zeus\Codes\Python\scr\Exchange\POBox0\From_Hermes
 C:\Users\zeus\Codes\Python\scr\Exchange\POBox1\From_Hermes
